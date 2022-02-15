@@ -5,7 +5,12 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url /parcel-test/"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./docs"
+    }
   },
   "author": "",
   "license": "ISC",
